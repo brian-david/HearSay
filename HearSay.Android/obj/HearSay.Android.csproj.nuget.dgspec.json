@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brianirons/Projects/HearSay/HearSay/HearSay.Android/HearSay.Android.csproj": {}
+    "/Users/brianirons/4_HearSay/HearSay.Android/HearSay.Android.csproj": {}
   },
   "projects": {
-    "/Users/brianirons/Projects/HearSay/HearSay/HearSay.Android/HearSay.Android.csproj": {
+    "/Users/brianirons/4_HearSay/HearSay.Android/HearSay.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brianirons/Projects/HearSay/HearSay/HearSay.Android/HearSay.Android.csproj",
+        "projectUniqueName": "/Users/brianirons/4_HearSay/HearSay.Android/HearSay.Android.csproj",
         "projectName": "HearSay.Android",
-        "projectPath": "/Users/brianirons/Projects/HearSay/HearSay/HearSay.Android/HearSay.Android.csproj",
+        "projectPath": "/Users/brianirons/4_HearSay/HearSay.Android/HearSay.Android.csproj",
         "packagesPath": "/Users/brianirons/.nuget/packages/",
-        "outputPath": "/Users/brianirons/Projects/HearSay/HearSay/HearSay.Android/obj/",
+        "outputPath": "/Users/brianirons/4_HearSay/HearSay.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/brianirons/Projects/HearSay/HearSay/HearSay/HearSay.csproj": {
-                "projectPath": "/Users/brianirons/Projects/HearSay/HearSay/HearSay/HearSay.csproj"
+              "/Users/brianirons/4_HearSay/HearSay/HearSay.csproj": {
+                "projectPath": "/Users/brianirons/4_HearSay/HearSay/HearSay.csproj"
               }
             }
           }
@@ -36,30 +36,34 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.2.0.848062, )"
             }
           }
         }
       }
     },
-    "/Users/brianirons/Projects/HearSay/HearSay/HearSay/HearSay.csproj": {
+    "/Users/brianirons/4_HearSay/HearSay/HearSay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brianirons/Projects/HearSay/HearSay/HearSay/HearSay.csproj",
+        "projectUniqueName": "/Users/brianirons/4_HearSay/HearSay/HearSay.csproj",
         "projectName": "HearSay",
-        "projectPath": "/Users/brianirons/Projects/HearSay/HearSay/HearSay/HearSay.csproj",
+        "projectPath": "/Users/brianirons/4_HearSay/HearSay/HearSay.csproj",
         "packagesPath": "/Users/brianirons/.nuget/packages/",
-        "outputPath": "/Users/brianirons/Projects/HearSay/HearSay/HearSay/obj/",
+        "outputPath": "/Users/brianirons/4_HearSay/HearSay/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -87,6 +91,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -95,11 +103,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.2.0.848062, )"
             }
           },
           "imports": [
