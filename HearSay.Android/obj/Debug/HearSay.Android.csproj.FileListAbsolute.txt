@@ -497,3 +497,8 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/_VerifyXamarinAndroidSupportVersions.stamp
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/Mono.Android.pdb
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/res/mipmap-hdpi/ic_launcher.png
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/res/mipmap-mdpi/ic_launcher.png
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/res/mipmap-xhdpi/ic_launcher.png
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/res/mipmap-xxhdpi/ic_launcher.png
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/res/mipmap-xxxhdpi/ic_launcher.png

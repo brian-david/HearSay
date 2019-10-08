@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay.Android/MainActivity.cs">
     <Files>
-      <File FileName="HearSay/MainPage.xaml.cs" Line="28" Column="104" />
-      <File FileName="HearSay/MainPage.xaml" />
-      <File FileName="HearSay/Services/IMicrophoneService.cs" />
-      <File FileName="HearSay.Android/MainActivity.cs" />
-      <File FileName="HearSay.Android/Services/MicrophoneService.cs" />
       <File FileName="HearSay.Android/Properties/AndroidManifest.xml" />
+      <File FileName="HearSay.Android/MainActivity.cs" Line="13" Column="68" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,13 +13,17 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
             <Node name="HearSay.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="mipmap-xxxhdpi" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
               <Node name="Services" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +31,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HearSay.Android PreferredExecutionTarget="Android.Nexus_5_API_24" />
+  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_3_API_26" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
