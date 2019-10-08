@@ -25,7 +25,7 @@ namespace HearSay
             {
                 // Creates an instance of a speech config with specified subscription key and service region.
                 // Replace with your own subscription key and service region (e.g., "westus").
-                var config = SpeechConfig.FromSubscription("YourSubscriptionKey", "YourRegion");
+                var config = SpeechConfig.FromSubscription("fa287654e33b43e8a92abe5e40beef4f", "westus2");
 
                 // Creates a speech recognizer using microphone as audio input.
                 using (var recognizer = new SpeechRecognizer(config))

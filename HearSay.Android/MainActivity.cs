@@ -8,7 +8,7 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 
-namespace helloworld.Droid
+namespace HearSay.Droid
 {
     [Activity(Label = "helloworld", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

@@ -495,3 +495,5 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/_VerifyXamarinAndroidSupportVersions.stamp
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/Mono.Android.pdb
