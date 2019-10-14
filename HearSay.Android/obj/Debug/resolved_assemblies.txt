@@ -5,6 +5,9 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/Microsoft.CognitiveServices.Speech.csharp.dll
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/mscorlib.dll
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/SkiaSharp.dll
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/SkiaSharp.Views.Android.dll
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/SkiaSharp.Views.Forms.dll
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/System.Core.dll
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/System.dll
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/assets/System.Numerics.dll

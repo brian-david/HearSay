@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Microsoft.CognitiveServices.Speech;
+using Xamarin.Essentials;
+using SkiaSharp.Views.Forms;
+using SkiaSharp;
 
 namespace HearSay
 {
@@ -17,6 +20,39 @@ namespace HearSay
         public MainPage()
         {
             InitializeComponent();
+            screenInfo.Text = DeviceDisplay.MainDisplayInfo.Width.ToString();
+
+            SKCanvasView canvasView = new SKCanvasView();
+            canvasView.PaintSurface += OnCanvasViewPaintSurface;
+            Content = canvasView;
+        }
+
+        private void OnCanvasViewPaintSurface(object sender, SKPaintSurfaceEventArgs args)
+        {
+            SKImageInfo info = args.Info;
+            SKSurface surface = args.Surface;
+            SKCanvas canvas = surface.Canvas;
+
+            canvas.Clear();
+
+            using (SKPaint paint = new SKPaint())
+            {
+                // Create 300-pixel square centered rectangle
+                float x = 0;
+                float y = 0;
+                SKRect rect = new SKRect(x, y, (float)(x + DeviceDisplay.MainDisplayInfo.Width), (float)(y + DeviceDisplay.MainDisplayInfo.Height));
+
+                // Create linear gradient from upper-left to lower-right
+                paint.Shader = SKShader.CreateLinearGradient(
+                                    new SKPoint(rect.Left, rect.Top),
+                                    new SKPoint(rect.Left, rect.Bottom),
+                                    new SKColor[] { SKColor.Parse("#3A6073"), SKColor.Parse("#16222A") },
+                                    new float[] { 0, 1 },
+                                    SKShaderTileMode.Repeat);
+
+                // Draw the gradient on the rectangle
+                canvas.DrawRect(rect, paint);
+            }
         }
 
         private async void OnRecognitionButtonClicked(object sender, EventArgs e)
@@ -85,6 +121,7 @@ namespace HearSay
             {
                 RecognitionText.Text = message;
             });
+            
         }
     }
 }

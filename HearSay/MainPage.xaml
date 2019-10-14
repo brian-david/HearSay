@@ -18,6 +18,8 @@
                 Text="Start speech recognition"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnRecognitionButtonClicked" />
+        <Label x:Name="screenInfo"
+               Text="This is a text box"/>
     </StackLayout>
 
 </ContentPage>

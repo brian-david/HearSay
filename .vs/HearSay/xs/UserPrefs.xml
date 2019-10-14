@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml.cs">
     <Files>
-      <File FileName="HearSay.Android/Properties/AndroidManifest.xml" />
-      <File FileName="HearSay.Android/MainActivity.cs" Line="13" Column="68" />
+      <File FileName="HearSay/MainPage.xaml.cs" Line="12" Column="26" />
+      <File FileName="HearSay/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="HearSay/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="HearSay/AssemblyInfo.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,17 +15,14 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="HearSay.Android" expanded="True">
-              <Node name="Assets" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="mipmap-xxxhdpi" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
               <Node name="Services" expanded="True" />
-              <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>
