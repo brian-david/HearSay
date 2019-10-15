@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml.cs">
     <Files>
-      <File FileName="HearSay/MainPage.xaml.cs" Line="10" Column="21" />
-      <File FileName="HearSay/MainPage.xaml" Line="29" Column="15" />
-      <File FileName="HearSay/App.xaml.cs" />
-      <File FileName="HearSay/AssemblyInfo.cs" />
+      <File FileName="HearSay/MainPage.xaml.cs" Line="29" Column="14" />
+      <File FileName="HearSay/MainPage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +14,9 @@
               </Node>
               <Node name="Services" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="HearSay.Android" expanded="True">
               <Node name="Properties" expanded="True" />
@@ -28,7 +28,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_3_API_26" />
+  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Nexus_5_API_24" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -21,17 +21,16 @@
 
             <StackLayout Orientation="Vertical" VerticalOptions="End">
                 <!-- Bottom controls -->
-                <Button x:Name="EnableMicrophoneButton"
-                    Text="Enable microphone"
-                    HorizontalOptions="FillAndExpand"
-                    CornerRadius="25"
-                    Clicked="OnEnableMicrophoneButtonClicked" />
 
+        
                 <Button x:Name="RecognitionButton"
                     Text="LISTEN"
                     HorizontalOptions="FillAndExpand"
                     CornerRadius="30"
-                    Clicked="OnRecognitionButtonClicked" />
+                    Clicked="OnRecognitionButtonClicked"
+                    BackgroundColor="#c31432"/>
+
+                
             </StackLayout>
         
         </StackLayout>

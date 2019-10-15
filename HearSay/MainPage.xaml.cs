@@ -22,6 +22,12 @@ namespace HearSay
 
         private async void OnRecognitionButtonClicked(object sender, EventArgs e)
         {
+            bool micAccessGranted = await DependencyService.Get<IMicrophoneService>().GetPermissionsAsync();
+            if (!micAccessGranted)
+            {
+                UpdateUI("Please give access to microphone");
+            }
+
             try
             {
                 // Creates an instance of a speech config with specified subscription key and service region.
