@@ -22,6 +22,9 @@ namespace HearSay
 
         private async void OnRecognitionButtonClicked(object sender, EventArgs e)
         {
+            //ActivityIndicator activityIndicator = new ActivityIndicator { IsRunning = false };
+
+            //Check if the app has microphone permissions
             bool micAccessGranted = await DependencyService.Get<IMicrophoneService>().GetPermissionsAsync();
             if (!micAccessGranted)
             {
@@ -37,6 +40,7 @@ namespace HearSay
                 // Creates a speech recognizer using microphone as audio input.
                 using (var recognizer = new SpeechRecognizer(config))
                 {
+   
                     // Starts speech recognition, and returns after a single utterance is recognized. The end of a
                     // single utterance is determined by listening for silence at the end or until a maximum of 15
                     // seconds of audio is processed.  The task returns the recognition text as result.
