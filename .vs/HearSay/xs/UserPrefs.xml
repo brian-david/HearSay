@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/obj/Debug/netstandard2.0/MainPage.xaml.g.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/Services/IMicrophoneService.cs">
     <Files>
-      <File FileName="HearSay/MainPage.xaml.cs" Line="103" Column="2" />
-      <File FileName="HearSay/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="HearSay/App.xaml.cs" />
-      <File FileName="HearSay/Services/IMicrophoneService.cs" />
-      <File FileName="HearSay/App.xaml" />
-      <File FileName="HearSay/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" Line="29" Column="46" />
+      <File FileName="HearSay.Android/Services/MicrophoneService.cs" Line="1" Column="1" />
+      <File FileName="HearSay/Services/IMicrophoneService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +12,11 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="IMicrophoneService.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
             <Node name="HearSay.Android" expanded="True">
               <Node name="Properties" expanded="True" />

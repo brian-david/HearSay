@@ -30,7 +30,7 @@ namespace HearSay.Droid
             else
             {
                 var currentActivity = MainActivity.Instance;
-                if (ActivityCompat.CheckSelfPermission(currentActivity, Manifest.Permission.RecordAudio) != (int)Android.Content.PM.Permission.Granted)
+                if (Android.Support.V4.Content.ContextCompat.CheckSelfPermission(currentActivity, Manifest.Permission.RecordAudio) != (int)Android.Content.PM.Permission.Granted)
                 {
                     RequestMicPermission();
                 }
