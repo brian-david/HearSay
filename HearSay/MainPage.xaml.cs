@@ -95,6 +95,7 @@ namespace HearSay
             Device.BeginInvokeOnMainThread(() =>
             {
                 RecognitionText.Text = message;
+                //speech.Children.Add(new )
             });
             
         }

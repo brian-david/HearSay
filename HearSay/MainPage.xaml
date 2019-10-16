@@ -8,7 +8,7 @@
         <StackLayout Spacing="10" x:Name="layout" Margin="40,40,40,40">
         
 
-            <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <StackLayout x:Name="speech" Orientation="Horizontal" VerticalOptions="Start">
                 <!-- top controls -->
                 <Label x:Name="RecognitionText"               
                    FontSize="Small"
@@ -22,6 +22,10 @@
             <StackLayout Orientation="Vertical" VerticalOptions="End">
                 <!-- Bottom controls -->
 
+                <Button x:Name="EnableMicrophoneButton"
+                   Text="Enable microphone"
+                   HorizontalOptions="FillAndExpand"
+                   Clicked="OnEnableMicrophoneButtonClicked"/>
         
                 <Button x:Name="RecognitionButton"
                     Text="LISTEN"
@@ -29,7 +33,6 @@
                     CornerRadius="30"
                     Clicked="OnRecognitionButtonClicked"
                     BackgroundColor="#c31432"/>
-
                 
             </StackLayout>
         

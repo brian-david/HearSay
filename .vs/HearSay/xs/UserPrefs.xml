@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml.cs">
     <Files>
-      <File FileName="HearSay/MainPage.xaml.cs" Line="43" Column="4" />
-      <File FileName="HearSay/MainPage.xaml" Line="26" Column="51" />
-      <File FileName="HearSay/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="HearSay/Services/IMicrophoneService.cs" Line="1" Column="1" />
-      <File FileName="HearSay/App.xaml" Line="1" Column="1" />
+      <File FileName="HearSay/MainPage.xaml.cs" Line="103" Column="2" />
+      <File FileName="HearSay/MainPage.xaml" />
+      <File FileName="HearSay/App.xaml.cs" />
+      <File FileName="HearSay/Services/IMicrophoneService.cs" />
+      <File FileName="HearSay/App.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
