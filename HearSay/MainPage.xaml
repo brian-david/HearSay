@@ -16,14 +16,15 @@
                    HorizontalOptions="FillAndExpand" />
             </StackLayout>
             <StackLayout VerticalOptions="CenterAndExpand">
-                <!-- middle controls -->
+                <ActivityIndicator x:Name="AI_LIS"
+                                   IsRunning="false" />
             </StackLayout>
 
             <StackLayout Orientation="Vertical" VerticalOptions="End">
                 <!-- Bottom controls -->
         
                 <Button x:Name="RecognitionButton"
-                    Text="things"
+                    Text="listen"
                     HorizontalOptions="FillAndExpand"
                     CornerRadius="30"
                     Clicked="OnRecognitionButtonClicked"

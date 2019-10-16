@@ -23,6 +23,7 @@ namespace HearSay
         private async void OnRecognitionButtonClicked(object sender, EventArgs e)
         {
             //ActivityIndicator activityIndicator = new ActivityIndicator { IsRunning = false };
+            AI_LIS.IsRunning = true;
 
             //Check if the app has microphone permissions
             bool micAccessGranted = await DependencyService.Get<IMicrophoneService>().GetPermissionsAsync();
@@ -94,8 +95,8 @@ namespace HearSay
         {
             Device.BeginInvokeOnMainThread(() =>
             {
+                AI_LIS.IsRunning = false;
                 RecognitionText.Text = message;
-                //speech.Children.Add(new )
             });
             
         }
