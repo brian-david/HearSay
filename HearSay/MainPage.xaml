@@ -4,7 +4,11 @@
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="HearSay.MainPage">
 
-    <yummy:PancakeView BackgroundGradientStartColor="#3A6073" BackgroundGradientEndColor="#16222A" IsClippedToBounds="true" HorizontalOptions="FillAndExpand" HeightRequest="150">
+    <yummy:PancakeView BackgroundGradientStartColor="#3A6073"
+                       BackgroundGradientEndColor="#16222A"
+                       IsClippedToBounds="true"
+                       HorizontalOptions="FillAndExpand"
+                       HeightRequest="150">
         <StackLayout Spacing="10" x:Name="layout" Margin="40,40,40,40">
         
 
@@ -23,7 +27,7 @@
             <StackLayout Orientation="Vertical" VerticalOptions="End">
                 <!-- Bottom controls -->
         
-                <Button x:Name="RecognitionButton"
+                <Button x:Name="ListenBtn"
                     Text="listen"
                     HorizontalOptions="FillAndExpand"
                     CornerRadius="30"

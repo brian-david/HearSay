@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Microsoft.CognitiveServices.Speech;
 using Xamarin.Essentials;
+using Xamarin.Forms.PancakeView;
 
 namespace HearSay
 {
@@ -24,12 +25,18 @@ namespace HearSay
         {
             //ActivityIndicator activityIndicator = new ActivityIndicator { IsRunning = false };
             AI_LIS.IsRunning = true;
+            ListenBtn.Text = "listening";
+            ListenBtn.BackgroundColor = Color.Green;
 
             //Check if the app has microphone permissions
             bool micAccessGranted = await DependencyService.Get<IMicrophoneService>().GetPermissionsAsync();
             if (!micAccessGranted)
             {
                 UpdateUI("Please give access to microphone");
+            }
+            else
+            {
+                Console.WriteLine("mic access granted");
             }
 
             try
@@ -54,7 +61,7 @@ namespace HearSay
                     StringBuilder sb = new StringBuilder();
                     if (result.Reason == ResultReason.RecognizedSpeech)
                     {
-                        sb.AppendLine($"RECOGNIZED: Text={result.Text}");
+                        sb.AppendLine($"{result.Text}");
                     }
                     else if (result.Reason == ResultReason.NoMatch)
                     {
@@ -82,24 +89,21 @@ namespace HearSay
             }
         }
 
-        private async void OnEnableMicrophoneButtonClicked(object sender, EventArgs e)
-        {
-            bool micAccessGranted = await DependencyService.Get<IMicrophoneService>().GetPermissionsAsync();
-            if (!micAccessGranted)
-            {
-                UpdateUI("Please give access to microphone");
-            }
-        }
-
         private void UpdateUI(String message)
         {
             Device.BeginInvokeOnMainThread(() =>
             {
                 AI_LIS.IsRunning = false;
+                ListenBtn.Text = "listen";
+                ListenBtn.BackgroundColor = Color.FromHex("#c31432");
+
                 RecognitionText.Text = message;
+
+                speech.Children.Add(new PancakeView {
+                    BackgroundColor = Color.Red, HeightRequest = 100
+                });
             });
             
         }
     }
 }
-
