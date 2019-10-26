@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml">
-    <Files>
-      <File FileName="HearSay/MainPage.xaml" Line="38" Column="15" />
-      <File FileName="HearSay/MainPage.xaml.cs" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HearSay" expanded="True">
             <Node name="HearSay" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="Controls" expanded="True">
+                <Node name="DialogBubble.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
