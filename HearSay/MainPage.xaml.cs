@@ -3,22 +3,22 @@
 // Licensed under the MIT license. See LICENSE.md file in the project root for full license information.
 //
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 using Microsoft.CognitiveServices.Speech;
-using Xamarin.Essentials;
 using Xamarin.Forms.PancakeView;
+using System.Collections.Generic;
 
 namespace HearSay
 {
     public partial class MainPage : ContentPage
     {
+        private List<string> phrases;
+
         public MainPage()
         {
             InitializeComponent();
+            phrases = new List<string>();
         }
 
         private async void OnRecognitionButtonClicked(object sender, EventArgs e)
@@ -62,6 +62,13 @@ namespace HearSay
                     if (result.Reason == ResultReason.RecognizedSpeech)
                     {
                         sb.AppendLine($"{result.Text}");
+                        phrases.Add(result.Text);
+                        Console.WriteLine("This is what I heard: "+result.Text);
+                        foreach(var phrase in phrases)
+                        {
+                            Console.WriteLine(phrase);
+                        }
+
                     }
                     else if (result.Reason == ResultReason.NoMatch)
                     {
@@ -79,7 +86,6 @@ namespace HearSay
                             sb.AppendLine($"CANCELED: Did you update the subscription info?");
                         }
                     }
-
                     UpdateUI(sb.ToString());
                 }
             }
@@ -96,14 +102,8 @@ namespace HearSay
                 AI_LIS.IsRunning = false;
                 ListenBtn.Text = "listen";
                 ListenBtn.BackgroundColor = Color.FromHex("#c31432");
-
                 RecognitionText.Text = message;
-
-                speech.Children.Add(new PancakeView {
-                    BackgroundColor = Color.Red, HeightRequest = 100
-                });
             });
-            
         }
     }
 }

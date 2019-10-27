@@ -13,9 +13,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
-    <Folder Include="Controls\" />
+    <Folder Include="Views\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="CustomControls\GradientColorStack.cs" />
+    <Compile Remove="Controls\DialogBubble.cs" />
+    <Compile Remove="Models\Speech.cs" />
   </ItemGroup>
 </Project>
