@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml.cs">
     <Files>
-      <File FileName="HearSay/Views/TextBubble.cs" Line="13" Column="1" />
-      <File FileName="HearSay/Models/Speech.cs" />
-      <File FileName="HearSay/MainPage.xaml.cs" />
-      <File FileName="HearSay/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="HearSay/MainPage.xaml.cs" Line="111" Column="73" />
+      <File FileName="HearSay/MainPage.xaml" Line="34" Column="25" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HearSay" expanded="True">
             <Node name="HearSay" expanded="True">
-              <Node name="Views" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -20,7 +19,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_3_marshmallow_6_0_api_23" />
+  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.S7M7N16729000683" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

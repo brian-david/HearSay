@@ -55,11 +55,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.848062, )"
+              "version": "[4.3.0.908675, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
-              "version": "[1.3.3, )"
+              "version": "[1.3.4, )"
             }
           },
           "imports": [

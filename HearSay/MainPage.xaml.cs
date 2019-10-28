@@ -24,7 +24,7 @@ namespace HearSay
         private async void OnRecognitionButtonClicked(object sender, EventArgs e)
         {
             //ActivityIndicator activityIndicator = new ActivityIndicator { IsRunning = false };
-            AI_LIS.IsRunning = true;
+            //AI_LIS.IsRunning = true;
             ListenBtn.Text = "listening";
             ListenBtn.BackgroundColor = Color.Green;
 
@@ -48,7 +48,7 @@ namespace HearSay
                 // Creates a speech recognizer using microphone as audio input.
                 using (var recognizer = new SpeechRecognizer(config))
                 {
-   
+
                     // Starts speech recognition, and returns after a single utterance is recognized. The end of a
                     // single utterance is determined by listening for silence at the end or until a maximum of 15
                     // seconds of audio is processed.  The task returns the recognition text as result.
@@ -63,8 +63,8 @@ namespace HearSay
                     {
                         sb.AppendLine($"{result.Text}");
                         phrases.Add(result.Text);
-                        Console.WriteLine("This is what I heard: "+result.Text);
-                        foreach(var phrase in phrases)
+                        Console.WriteLine("This is what I heard: " + result.Text);
+                        foreach (var phrase in phrases)
                         {
                             Console.WriteLine(phrase);
                         }
@@ -99,10 +99,17 @@ namespace HearSay
         {
             Device.BeginInvokeOnMainThread(() =>
             {
-                AI_LIS.IsRunning = false;
+                //AI_LIS.IsRunning = false;
                 ListenBtn.Text = "listen";
                 ListenBtn.BackgroundColor = Color.FromHex("#c31432");
-                RecognitionText.Text = message;
+
+                var textBox = new PancakeView {
+                    BackgroundColor = Color.WhiteSmoke,
+                    CornerRadius = 10,
+                    HasShadow = true
+                };
+                textBox.Content = new Label { Text = message, Margin = 7 };
+                speech.Children.Add(textBox);
             });
         }
     }

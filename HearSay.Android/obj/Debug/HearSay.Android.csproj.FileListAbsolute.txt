@@ -304,7 +304,6 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/NativeViewWrapperRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/EdgeSnapHelper.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/FormsAppCompatActivity.java
-/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/SelectableItemsViewRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ImageCache_CacheEntry.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/EntryRendererBase_1.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/EditorEditText.java
@@ -364,7 +363,6 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/CheckBoxRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ListViewRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ShellFlyoutTemplatedContentRenderer.java
-/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ItemsViewAdapter.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ShellFlyoutTemplatedContentRenderer_HeaderContainer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ShellRenderer_SplitDrawable.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/LabelRenderer.java
@@ -379,7 +377,6 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/DatePickerRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ListViewAdapter.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/TimePickerRendererBase_1.java
-/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/SelectableItemsViewAdapter.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ItemContentView.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/PageContainer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ViewCellRenderer_ViewCellContainer.java
@@ -400,7 +397,6 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/OpenGLViewRenderer_Renderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/PickerRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/FormsSeekBar.java
-/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ItemsViewRenderer.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/CustomFrameLayout.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/PageExtensions_EmbeddedFragment.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ShellItemRendererBase.java
@@ -492,7 +488,6 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md5a6bd5710b45d9970805ea363cf66d61f/MainActivity.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md5dcb6eccdc824e0677ffae8ccdde42930/KeepAliveService.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md5dcb6eccdc824e0677ffae8ccdde42930/CustomTabsServiceConnectionImpl.java
-/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md5423e3a95c357eb7d6aad61b4f54abbd4/RecyclerViewScrollListener.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/bin/packaged_resources
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/com/brian_david/hearsay/R.java
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/bin/classes.dex
@@ -507,3 +502,15 @@
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/StructuredItemsViewAdapter_2.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ItemsViewRenderer_3.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/StructuredItemsViewRenderer_3.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/SelectableItemsViewRenderer_3.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ItemsViewAdapter_2.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/RefreshViewRenderer.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/SelectableItemsViewAdapter_2.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/GroupableItemsViewRenderer_3.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/GroupableItemsViewAdapter_2.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/ListViewRenderer_ListViewScrollDetector.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md51558244f76c53b6aeda52c8a337f2c37/CarouselSpacingItemDecoration.java
+/Users/brianirons/4_HearSay/HearSay.Android/obj/Debug/android/src/md5423e3a95c357eb7d6aad61b4f54abbd4/RecyclerViewScrollListener_2.java

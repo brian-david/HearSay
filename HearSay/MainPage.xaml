@@ -4,29 +4,34 @@
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="HearSay.MainPage">
 
+    <!--THE STYLED BACKGROUND GRADIENT-->
     <yummy:PancakeView BackgroundGradientStartColor="#3A6073"
                        BackgroundGradientEndColor="#16222A"
                        IsClippedToBounds="true"
                        HorizontalOptions="FillAndExpand"
                        HeightRequest="150">
-        <StackLayout Spacing="10" x:Name="layout" Margin="40,40,40,40">
-        
-
-            <StackLayout x:Name="speech" Orientation="Horizontal" VerticalOptions="Start">
+        <!--MAIN STACK LAYOUT-->
+        <StackLayout
+                     x:Name="mainLayout"
+                     Margin="35,35,35,35"
+         >
+            <!--TOP-->
+            <StackLayout x:Name="speech"
+                         Orientation="Vertical"
+                         VerticalOptions="Start"
+                         >
                 <!-- top controls -->
-                <Label x:Name="RecognitionText"               
+                <!--<Label x:Name="RecognitionText"               
                    FontSize="Small"
                    HeightRequest="100"
-                   HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <StackLayout VerticalOptions="CenterAndExpand">
-                <ActivityIndicator x:Name="AI_LIS"
-                                   IsRunning="false" />
+                   HorizontalOptions="FillAndExpand" />-->
+                
             </StackLayout>
 
-            <StackLayout Orientation="Vertical" VerticalOptions="End">
-                <!-- Bottom controls -->
-        
+            <!--BOTTOM-->
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="EndAndExpand"
+                        >        
                 <Button x:Name="ListenBtn"
                     Text="listen"
                     HorizontalOptions="FillAndExpand"
@@ -36,7 +41,7 @@
                 
             </StackLayout>
         
-        </StackLayout>
+        </StackLayout> <!--END OF MAIN STACK-->
     </yummy:PancakeView>
 
 </ContentPage>

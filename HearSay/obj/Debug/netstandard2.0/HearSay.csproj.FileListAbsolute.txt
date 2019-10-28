@@ -1,13 +1,12 @@
-/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/HearSay.deps.json
-/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/HearSay.dll
-/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/ref/HearSay.dll
-/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/HearSay.pdb
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.AssemblyInfoInputs.cache
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.AssemblyInfo.cs
+/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/HearSay.deps.json
+/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/HearSay.dll
+/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/ref/HearSay.dll
+/Users/brianirons/4_HearSay/HearSay/bin/Debug/netstandard2.0/HearSay.pdb
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.dll
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/ref/HearSay.dll
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.pdb
-/Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.csprojAssemblyReference.cache
