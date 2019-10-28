@@ -10,7 +10,7 @@ namespace HearSay
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
@@ -27,5 +27,6 @@ namespace HearSay
         {
             // Handle when your app resumes
         }
+        
     }
 }

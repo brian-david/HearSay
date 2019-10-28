@@ -13,6 +13,11 @@ namespace HearSay
 {
     public partial class MainPage : ContentPage
     {
+        private void OnItemClicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Title", "Message", "cancel");
+        }
+
         private List<string> phrases;
 
         public MainPage()
@@ -101,7 +106,7 @@ namespace HearSay
             {
                 //AI_LIS.IsRunning = false;
                 ListenBtn.Text = "listen";
-                ListenBtn.BackgroundColor = Color.FromHex("#c31432");
+                ListenBtn.BackgroundColor = Color.FromHex("#2E74D1");
 
                 var textBox = new PancakeView {
                     BackgroundColor = Color.WhiteSmoke,
@@ -111,6 +116,11 @@ namespace HearSay
                 textBox.Content = new Label { Text = message, Margin = 7 };
                 speech.Children.Add(textBox);
             });
+        }
+
+        async void SettingsPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SettingsPage());
         }
     }
 }

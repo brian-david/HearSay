@@ -2,7 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-             x:Class="HearSay.MainPage">
+             x:Class="HearSay.MainPage"
+             Title="HearSay"
+             NavigationPage.HasNavigationBar="false">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary"
+                     Text="&#xf493;"
+                     Priority="0"
+                     IconImageSource="icon.png"
+                     Clicked="OnItemClicked" />
+    </ContentPage.ToolbarItems>
 
     <!--THE STYLED BACKGROUND GRADIENT-->
     <yummy:PancakeView BackgroundGradientStartColor="#3A6073"
@@ -13,31 +23,33 @@
         <!--MAIN STACK LAYOUT-->
         <StackLayout
                      x:Name="mainLayout"
-                     Margin="35,35,35,35"
-         >
+                     Margin="35,35,35,35">
             <!--TOP-->
             <StackLayout x:Name="speech"
                          Orientation="Vertical"
-                         VerticalOptions="Start"
-                         >
-                <!-- top controls -->
-                <!--<Label x:Name="RecognitionText"               
-                   FontSize="Small"
-                   HeightRequest="100"
-                   HorizontalOptions="FillAndExpand" />-->
+                         VerticalOptions="Start">
                 
             </StackLayout>
 
             <!--BOTTOM-->
-            <StackLayout Orientation="Vertical"
+            <StackLayout Orientation="Horizontal"
                          VerticalOptions="EndAndExpand"
-                        >        
+                         Spacing="24">        
+                <Button x:Name="SettingsBtn"
+                        Text="&#xf493;"
+                        FontSize="24"
+                        CornerRadius="30"
+                        WidthRequest="50"
+                        TextColor="Black"
+                        FontFamily="{StaticResource MaterialFontFamily}"
+                        Clicked="SettingsPage"/>
+
                 <Button x:Name="ListenBtn"
                     Text="listen"
                     HorizontalOptions="FillAndExpand"
                     CornerRadius="30"
                     Clicked="OnRecognitionButtonClicked"
-                    BackgroundColor="#c31432"/>
+                    BackgroundColor="#2E74D1"/>
                 
             </StackLayout>
         
