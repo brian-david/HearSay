@@ -11,3 +11,4 @@
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.dll
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/ref/HearSay.dll
 /Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.pdb
+/Users/brianirons/4_HearSay/HearSay/obj/Debug/netstandard2.0/HearSay.csprojAssemblyReference.cache

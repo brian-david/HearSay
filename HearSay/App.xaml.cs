@@ -11,6 +11,7 @@ namespace HearSay
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
+            MainPage.SetValue(NavigationPage.BarBackgroundColorProperty, Color.Black);
         }
 
         protected override void OnStart()
