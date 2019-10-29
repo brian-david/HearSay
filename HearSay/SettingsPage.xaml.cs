@@ -11,5 +11,10 @@ namespace HearSay
         {
             InitializeComponent();
         }
+
+        async void submitName(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }

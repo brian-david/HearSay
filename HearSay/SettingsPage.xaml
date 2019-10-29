@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HearSay.SettingsPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HearSay.SettingsPage">
     <ContentPage.Content Title="Settings">
-        <StackLayout>
-            <Label Text="THIS IS THE SETTINGS PAGE"/>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Label Text="Enter the name you want to listen for"/>
+            <Entry Text="{Binding Name}"/>
+            <Button Text="Submit"
+                    Clicked="submitName"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

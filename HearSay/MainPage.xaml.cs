@@ -8,16 +8,25 @@ using Xamarin.Forms;
 using Microsoft.CognitiveServices.Speech;
 using Xamarin.Forms.PancakeView;
 using System.Collections.Generic;
+using HearSay.Models;
 
 namespace HearSay
 {
+    public class User
+    {
+        public string Name { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
+    }
+
     public partial class MainPage : ContentPage
     {
-        private void OnItemClicked(object sender, EventArgs e)
-        {
-            DisplayAlert("Title", "Message", "cancel");
-        }
+        //VARIABLES AND DATA
+        bool listening = false;
 
+        User currentUser = new User {Name = ""};
         private List<string> phrases;
 
         public MainPage()
@@ -30,7 +39,8 @@ namespace HearSay
         {
             //ActivityIndicator activityIndicator = new ActivityIndicator { IsRunning = false };
             //AI_LIS.IsRunning = true;
-            ListenBtn.Text = "listening";
+            listening = true;
+            ListenBtn.Text = "listening";           
             ListenBtn.BackgroundColor = Color.Green;
 
             //Check if the app has microphone permissions
@@ -91,7 +101,15 @@ namespace HearSay
                             sb.AppendLine($"CANCELED: Did you update the subscription info?");
                         }
                     }
-                    UpdateUI(sb.ToString());
+
+                    if (sb.ToString().Contains(currentUser.Name))
+                    {
+                        UpdateUI(sb.ToString());
+                    }
+                    else {
+                        UpdateUI("No one is talking about you");
+                    }
+                    
                 }
             }
             catch (Exception ex)
@@ -105,6 +123,7 @@ namespace HearSay
             Device.BeginInvokeOnMainThread(() =>
             {
                 //AI_LIS.IsRunning = false;
+                listening = false;
                 ListenBtn.Text = "listen";
                 ListenBtn.BackgroundColor = Color.FromHex("#2E74D1");
 
@@ -120,7 +139,10 @@ namespace HearSay
 
         async void SettingsPage(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SettingsPage());
+            var settingsPage = new SettingsPage();
+            settingsPage.BindingContext = currentUser;
+            Console.WriteLine("CURRENT NAME -> " + currentUser.Name);
+            await Navigation.PushAsync(settingsPage, true);
         }
     }
 }

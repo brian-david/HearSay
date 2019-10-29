@@ -6,14 +6,6 @@
              Title="HearSay"
              NavigationPage.HasNavigationBar="false">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Primary"
-                     Text="&#xf493;"
-                     Priority="0"
-                     IconImageSource="icon.png"
-                     Clicked="OnItemClicked" />
-    </ContentPage.ToolbarItems>
-
     <!--THE STYLED BACKGROUND GRADIENT-->
     <yummy:PancakeView BackgroundGradientStartColor="#3A6073"
                        BackgroundGradientEndColor="#16222A"
