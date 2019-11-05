@@ -17,16 +17,19 @@
                      x:Name="mainLayout"
                      Margin="35,35,35,35">
             <!--TOP-->
-            <StackLayout x:Name="speech"
+            <ScrollView>
+                <StackLayout x:Name="speech"
                          Orientation="Vertical"
                          VerticalOptions="Start">
                 
             </StackLayout>
+            </ScrollView>
+            
 
             <!--BOTTOM-->
             <StackLayout Orientation="Horizontal"
                          VerticalOptions="EndAndExpand"
-                         Spacing="24">        
+                             Spacing="24">        
                 <Button x:Name="SettingsBtn"
                         Text="&#xf493;"
                         FontSize="24"

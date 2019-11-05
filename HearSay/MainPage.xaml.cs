@@ -10,6 +10,7 @@ using Xamarin.Forms.PancakeView;
 using System.Collections.Generic;
 using HearSay.Models;
 
+
 namespace HearSay
 {
     public class User
@@ -104,6 +105,9 @@ namespace HearSay
 
                     if (sb.ToString().Contains(currentUser.Name))
                     {
+                        //var tone = await SentimentAnalysis.GetSentiment("Tony is a great man");
+                        //Console.WriteLine("SENTIMENT ANALYSIS -> "+tone);
+
                         UpdateUI(sb.ToString());
                     }
                     else {
@@ -120,6 +124,7 @@ namespace HearSay
 
         private void UpdateUI(String message)
         {
+            
             Device.BeginInvokeOnMainThread(() =>
             {
                 //AI_LIS.IsRunning = false;

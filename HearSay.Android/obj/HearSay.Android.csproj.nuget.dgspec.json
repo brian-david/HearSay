@@ -36,9 +36,17 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Language.TextAnalytics": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
               "version": "[1.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
@@ -95,6 +103,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Language.TextAnalytics": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -104,6 +116,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

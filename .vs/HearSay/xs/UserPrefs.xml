@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/SettingsPage.xaml">
     <Files>
-      <File FileName="HearSay/MainPage.xaml" Line="34" Column="42" />
+      <File FileName="HearSay/MainPage.xaml" Line="32" Column="29" />
       <File FileName="HearSay/MainPage.xaml.cs" />
-      <File FileName="HearSay/Models/User.cs" />
-      <File FileName="HearSay/App.xaml.cs" />
-      <File FileName="HearSay.Android/Properties/AndroidManifest.xml" />
-      <File FileName="HearSay.Android/MainActivity.cs" />
-      <File FileName="HearSay.Android/Resources/values/colors.xml" />
+      <File FileName="HearSay/SettingsPage.xaml.cs" />
+      <File FileName="HearSay/SettingsPage.xaml" Line="4" Column="102" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,21 +13,12 @@
             <Node name="HearSay" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
-                <Node name="SdkDependencies" expanded="True" />
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SettingsPage.xaml" expanded="True">
-                <Node name="SettingsPage.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="HearSay.Android" expanded="True">
-              <Node name="Assets" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="values" expanded="True" />
-              </Node>
+              <Node name="SettingsPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>

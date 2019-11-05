@@ -10,6 +10,8 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
     <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.7.0" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.3.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Language.TextAnalytics" Version="4.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -20,5 +22,6 @@
     <Compile Remove="CustomControls\GradientColorStack.cs" />
     <Compile Remove="Controls\DialogBubble.cs" />
     <Compile Remove="Models\Speech.cs" />
+    <Compile Remove="Models\SentimentAnalysis.cs" />
   </ItemGroup>
 </Project>
