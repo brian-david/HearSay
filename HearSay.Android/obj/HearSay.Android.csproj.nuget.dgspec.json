@@ -42,7 +42,7 @@
             },
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.8.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -58,7 +58,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.3.0.947036, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -109,7 +109,7 @@
             },
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.8.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -127,7 +127,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.3.0.947036, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",

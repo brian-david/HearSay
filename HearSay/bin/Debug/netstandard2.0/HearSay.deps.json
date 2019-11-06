@@ -10,11 +10,11 @@
       "HearSay/1.0.0": {
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Language.TextAnalytics": "4.0.0",
-          "Microsoft.CognitiveServices.Speech": "1.7.0",
+          "Microsoft.CognitiveServices.Speech": "1.8.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.2",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675",
+          "Xamarin.Forms": "4.3.0.947036",
           "Xamarin.Forms.PancakeView": "1.3.4"
         },
         "runtime": {
@@ -35,11 +35,11 @@
           }
         }
       },
-      "Microsoft.CognitiveServices.Speech/1.7.0": {
+      "Microsoft.CognitiveServices.Speech/1.8.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
-            "assemblyVersion": "1.7.0.28",
-            "fileVersion": "1.7.0.28"
+            "assemblyVersion": "1.8.0.28",
+            "fileVersion": "1.8.0.28"
           }
         }
       },
@@ -539,25 +539,25 @@
           }
         }
       },
-      "Xamarin.Forms/4.3.0.908675": {
+      "Xamarin.Forms/4.3.0.947036": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.3.0.336"
+            "fileVersion": "4.3.0.356"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.3.0.336"
+            "fileVersion": "4.3.0.356"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.3.0.336"
+            "fileVersion": "4.3.0.356"
           }
         }
       },
       "Xamarin.Forms.PancakeView/1.3.4": {
         "dependencies": {
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Forms": "4.3.0.947036"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
@@ -581,12 +581,12 @@
       "path": "microsoft.azure.cognitiveservices.language.textanalytics/4.0.0",
       "hashPath": "microsoft.azure.cognitiveservices.language.textanalytics.4.0.0.nupkg.sha512"
     },
-    "Microsoft.CognitiveServices.Speech/1.7.0": {
+    "Microsoft.CognitiveServices.Speech/1.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8YtS2i3dRPUy5PGvIBb4UerXTDz7VKv3CYLQP5AerSzsf1OB45N3bgaxjVMQUu8SERT2+0Le52cQWMy7NLxlLw==",
-      "path": "microsoft.cognitiveservices.speech/1.7.0",
-      "hashPath": "microsoft.cognitiveservices.speech.1.7.0.nupkg.sha512"
+      "sha512": "sha512-AVUaevG/n00D5rvpunU7VWdXP+++78ioGypr4qm0KBTusbhR/0kHsIhKLPFCzfbyLIxoBrIt9z7Q4oYJVWz8ZA==",
+      "path": "microsoft.cognitiveservices.speech/1.8.0",
+      "hashPath": "microsoft.cognitiveservices.speech.1.8.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
       "type": "package",
@@ -973,12 +973,12 @@
       "path": "xamarin.essentials/1.3.1",
       "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
     },
-    "Xamarin.Forms/4.3.0.908675": {
+    "Xamarin.Forms/4.3.0.947036": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
-      "path": "xamarin.forms/4.3.0.908675",
-      "hashPath": "xamarin.forms.4.3.0.908675.nupkg.sha512"
+      "sha512": "sha512-oEAwwHfaZesC+VvP07UoctI1DGIgewZlKMr/sHPl/hNMRM6ZfccPgOY19Yw017asj9z7PKXqpDDUbFFOJ2jN4A==",
+      "path": "xamarin.forms/4.3.0.947036",
+      "hashPath": "xamarin.forms.4.3.0.947036.nupkg.sha512"
     },
     "Xamarin.Forms.PancakeView/1.3.4": {
       "type": "package",

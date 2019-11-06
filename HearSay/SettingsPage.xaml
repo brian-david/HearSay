@@ -7,17 +7,31 @@
         <yummy:PancakeView BackgroundGradientStartColor="#3A6073"
                            BackgroundGradientEndColor="#FFFFF"
                            HorizontalOptions="FillAndExpand">
-            <StackLayout HorizontalOptions="Center"
-                     VerticalOptions="Center">
-                <Label Text="Enter the name you want to listen for"
+            <StackLayout Margin="35,35,35,35">
+                <StackLayout Orientation="Vertical"
+                             VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="Center">
+                    <Label Text="Enter the name you want to listen for"
                        TextColor="white"/>
-                <Entry Text="{Binding Name}"/>
-                <Button Text="Submit"
-                    Clicked="submitName"/>
+                    <yummy:PancakeView CornerRadius="15"
+                                       BackgroundColor="WhiteSmoke"
+                                       Padding="5">
+                        <Entry Text="{Binding Name}"/>
+                    </yummy:PancakeView>
+                    
+                </StackLayout>
+               
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="EndAndExpand"
+                             HorizontalOptions="End">
+                    <Button Text="Submit"
+                            Clicked="submitName"
+                            CornerRadius="30"
+                            BackgroundColor="#2e74d1"/>
+                </StackLayout>
+
             </StackLayout>
         </yummy:PancakeView>
-
-        
     </ContentPage.Content>
 </ContentPage>
 

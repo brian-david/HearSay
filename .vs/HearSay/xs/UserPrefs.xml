@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{BF201F4A-F869-4511-9BD6-17C708438013}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/SettingsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HearSay/MainPage.xaml.cs">
     <Files>
-      <File FileName="HearSay/MainPage.xaml" Line="32" Column="29" />
-      <File FileName="HearSay/MainPage.xaml.cs" />
-      <File FileName="HearSay/SettingsPage.xaml.cs" />
-      <File FileName="HearSay/SettingsPage.xaml" Line="4" Column="102" NotebookId="1" />
+      <File FileName="HearSay/SettingsPage.xaml" Line="23" Column="16" />
+      <File FileName="HearSay/Services/TextAnalysisService.cs" Line="29" Column="10" />
+      <File FileName="HearSay/MainPage.xaml.cs" Line="167" Column="44" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,19 +13,20 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="Views" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SettingsPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="SettingsPage.xaml" expanded="True" />
             </Node>
+            <Node name="HearSay.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_3_marshmallow_6_0_api_23" />
+  <MonoDevelop.Ide.ItemProperties.HearSay.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.S7M7N16729000683" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

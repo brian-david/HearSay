@@ -17,7 +17,7 @@
           "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll": {}
         }
       },
-      "Microsoft.CognitiveServices.Speech/1.7.0": {
+      "Microsoft.CognitiveServices.Speech/1.8.0": {
         "type": "package",
         "compile": {
           "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.dll": {}
@@ -80,14 +80,6 @@
           "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
             "assetType": "native",
             "rid": "win-x86"
-          },
-          "runtimes/win10-arm/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
-            "assetType": "native",
-            "rid": "win10-arm"
-          },
-          "runtimes/win10-arm64/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
-            "assetType": "native",
-            "rid": "win10-arm64"
           }
         }
       },
@@ -1411,7 +1403,7 @@
           "lib/monoandroid90/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.908675": {
+      "Xamarin.Forms/4.3.0.947036": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.CustomTabs": "28.0.0.3",
@@ -1459,10 +1451,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Language.TextAnalytics": "4.0.0",
-          "Microsoft.CognitiveServices.Speech": "1.7.0",
+          "Microsoft.CognitiveServices.Speech": "1.8.0",
           "Newtonsoft.Json": "12.0.2",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675",
+          "Xamarin.Forms": "4.3.0.947036",
           "Xamarin.Forms.PancakeView": "1.3.4"
         },
         "compile": {
@@ -1490,10 +1482,10 @@
         "microsoft.azure.cognitiveservices.language.textanalytics.nuspec"
       ]
     },
-    "Microsoft.CognitiveServices.Speech/1.7.0": {
-      "sha512": "8YtS2i3dRPUy5PGvIBb4UerXTDz7VKv3CYLQP5AerSzsf1OB45N3bgaxjVMQUu8SERT2+0Le52cQWMy7NLxlLw==",
+    "Microsoft.CognitiveServices.Speech/1.8.0": {
+      "sha512": "AVUaevG/n00D5rvpunU7VWdXP+++78ioGypr4qm0KBTusbhR/0kHsIhKLPFCzfbyLIxoBrIt9z7Q4oYJVWz8ZA==",
       "type": "package",
-      "path": "microsoft.cognitiveservices.speech/1.7.0",
+      "path": "microsoft.cognitiveservices.speech/1.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1503,8 +1495,16 @@
         "build/Xamarin.iOS/libMicrosoft.CognitiveServices.Speech.core.a",
         "build/monoandroid/Microsoft.CognitiveServices.Speech.targets",
         "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
         "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
         "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/native/ARM/Release/Microsoft.CognitiveServices.Speech.core.dll",
+        "build/native/ARM/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/ARM/Release/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "build/native/ARM64/Release/Microsoft.CognitiveServices.Speech.core.dll",
+        "build/native/ARM64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/ARM64/Release/Microsoft.CognitiveServices.Speech.extension.kws.dll",
         "build/native/Microsoft.CognitiveServices.Speech.targets",
         "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.core.dll",
         "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.core.lib",
@@ -1513,9 +1513,10 @@
         "build/native/include/c_api/speechapi_c_audio_config.h",
         "build/native/include/c_api/speechapi_c_audio_stream.h",
         "build/native/include/c_api/speechapi_c_audio_stream_format.h",
+        "build/native/include/c_api/speechapi_c_auto_detect_source_lang_config.h",
         "build/native/include/c_api/speechapi_c_common.h",
         "build/native/include/c_api/speechapi_c_connection.h",
-        "build/native/include/c_api/speechapi_c_conversation_transcriber.h",
+        "build/native/include/c_api/speechapi_c_conversation.h",
         "build/native/include/c_api/speechapi_c_conversation_transcription_result.h",
         "build/native/include/c_api/speechapi_c_dialog_service_config.h",
         "build/native/include/c_api/speechapi_c_dialog_service_connector.h",
@@ -1532,6 +1533,7 @@
         "build/native/include/c_api/speechapi_c_recognizer.h",
         "build/native/include/c_api/speechapi_c_result.h",
         "build/native/include/c_api/speechapi_c_session.h",
+        "build/native/include/c_api/speechapi_c_source_lang_config.h",
         "build/native/include/c_api/speechapi_c_speech_config.h",
         "build/native/include/c_api/speechapi_c_speech_translation_config.h",
         "build/native/include/c_api/speechapi_c_synthesizer.h",
@@ -1544,10 +1546,13 @@
         "build/native/include/cxx_api/speechapi_cxx_audio_config.h",
         "build/native/include/cxx_api/speechapi_cxx_audio_stream.h",
         "build/native/include/cxx_api/speechapi_cxx_audio_stream_format.h",
+        "build/native/include/cxx_api/speechapi_cxx_auto_detect_source_lang_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_auto_detect_source_lang_result.h",
         "build/native/include/cxx_api/speechapi_cxx_class_language_model.h",
         "build/native/include/cxx_api/speechapi_cxx_common.h",
         "build/native/include/cxx_api/speechapi_cxx_connection.h",
         "build/native/include/cxx_api/speechapi_cxx_connection_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation.h",
         "build/native/include/cxx_api/speechapi_cxx_conversation_transcriber.h",
         "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_eventargs.h",
         "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_result.h",
@@ -1577,6 +1582,7 @@
         "build/native/include/cxx_api/speechapi_cxx_session.h",
         "build/native/include/cxx_api/speechapi_cxx_session_eventargs.h",
         "build/native/include/cxx_api/speechapi_cxx_smart_handle.h",
+        "build/native/include/cxx_api/speechapi_cxx_source_lang_config.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_config.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_recognition_eventargs.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_recognition_result.h",
@@ -1606,7 +1612,7 @@
         "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
         "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.xml",
-        "microsoft.cognitiveservices.speech.1.7.0.nupkg.sha512",
+        "microsoft.cognitiveservices.speech.1.8.0.nupkg.sha512",
         "microsoft.cognitiveservices.speech.nuspec",
         "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so",
         "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
@@ -1622,13 +1628,15 @@
         "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll",
         "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
         "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
         "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll",
         "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
         "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
-        "runtimes/win10-arm/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
         "runtimes/win10-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
-        "runtimes/win10-arm64/native/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
-        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll"
+        "runtimes/win10-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -5194,10 +5202,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.3.0.908675": {
-      "sha512": "kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
+    "Xamarin.Forms/4.3.0.947036": {
+      "sha512": "oEAwwHfaZesC+VvP07UoctI1DGIgewZlKMr/sHPl/hNMRM6ZfccPgOY19Yw017asj9z7PKXqpDDUbFFOJ2jN4A==",
       "type": "package",
-      "path": "xamarin.forms/4.3.0.908675",
+      "path": "xamarin.forms/4.3.0.947036",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5438,7 +5446,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.3.0.908675.nupkg.sha512",
+        "xamarin.forms.4.3.0.947036.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -5470,11 +5478,11 @@
     "MonoAndroid,Version=v9.0": [
       "HearSay >= 1.0.0",
       "Microsoft.Azure.CognitiveServices.Language.TextAnalytics >= 4.0.0",
-      "Microsoft.CognitiveServices.Speech >= 1.7.0",
+      "Microsoft.CognitiveServices.Speech >= 1.8.0",
       "Newtonsoft.Json >= 12.0.2",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.3.0.908675",
+      "Xamarin.Forms >= 4.3.0.947036",
       "Xamarin.Forms.PancakeView >= 1.3.4"
     ]
   },
@@ -5519,7 +5527,7 @@
           },
           "Microsoft.CognitiveServices.Speech": {
             "target": "Package",
-            "version": "[1.7.0, )"
+            "version": "[1.8.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -5535,7 +5543,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.3.0.908675, )"
+            "version": "[4.3.0.947036, )"
           },
           "Xamarin.Forms.PancakeView": {
             "target": "Package",

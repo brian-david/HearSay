@@ -13,7 +13,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.3.0.908675/build/Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.3.0.908675/build/Xamarin.Forms.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.cognitiveservices.speech/1.7.0/build/Microsoft.CognitiveServices.Speech.props" Condition="Exists('$(NuGetPackageRoot)microsoft.cognitiveservices.speech/1.7.0/build/Microsoft.CognitiveServices.Speech.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.3.0.947036/build/Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.3.0.947036/build/Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.cognitiveservices.speech/1.8.0/build/Microsoft.CognitiveServices.Speech.props" Condition="Exists('$(NuGetPackageRoot)microsoft.cognitiveservices.speech/1.8.0/build/Microsoft.CognitiveServices.Speech.props')" />
   </ImportGroup>
 </Project>

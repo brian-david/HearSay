@@ -25,7 +25,6 @@
             </StackLayout>
             </ScrollView>
             
-
             <!--BOTTOM-->
             <StackLayout Orientation="Horizontal"
                          VerticalOptions="EndAndExpand"

@@ -9,6 +9,7 @@ using Microsoft.CognitiveServices.Speech;
 using Xamarin.Forms.PancakeView;
 using System.Collections.Generic;
 using HearSay.Models;
+using HearSay.Services;
 
 
 namespace HearSay
@@ -120,12 +121,13 @@ namespace HearSay
             {
                 UpdateUI("Exception: " + ex.ToString());
             }
+
+            Console.WriteLine("SENTIMENT SCORE -> "+await TextAnalysisService.GetSentiment("I fucking hate you"));
         }
 
         private void UpdateUI(String message)
         {
-            
-            Device.BeginInvokeOnMainThread(() =>
+            Device.BeginInvokeOnMainThread(async () =>
             {
                 //AI_LIS.IsRunning = false;
                 listening = false;
@@ -137,6 +139,9 @@ namespace HearSay
                     CornerRadius = 10,
                     HasShadow = true
                 };
+
+                var sentiment = await TextAnalysisService.GetSentiment(message);
+                textBox.BackgroundColor = SetSpeechColour((double)sentiment);
                 textBox.Content = new Label { Text = message, Margin = 7 };
                 speech.Children.Add(textBox);
             });
@@ -148,6 +153,26 @@ namespace HearSay
             settingsPage.BindingContext = currentUser;
             Console.WriteLine("CURRENT NAME -> " + currentUser.Name);
             await Navigation.PushAsync(settingsPage, true);
+        }
+
+        private Color SetSpeechColour(double result)
+        {
+            switch (result)
+            {
+                case double number when (number <= 0.2):
+                    return Color.FromHex("#D93B3B");
+                case double number when (number > 0.2 && number <= 0.4):
+                    return Color.FromHex("#731A1A");
+                case double number when (number > 0.4 && number < 0.6):
+                    return Color.WhiteSmoke;
+                case double number when (number >= 0.6 && number < 0.8):
+                    return Color.FromHex("#358C6C");
+                case double number when (number >= 0.8):
+                    return Color.FromHex("#49BF94");
+                default:
+                    return Color.WhiteSmoke;
+            }
+            //return Color.Blue;
         }
     }
 }
